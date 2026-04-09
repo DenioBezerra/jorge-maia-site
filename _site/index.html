@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Jorge Maia</title>
+  <link rel="stylesheet" href="/jorge-maia-site/assets%5Ccss/style.css">
+</head>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const header = document.getElementById("siteHeader");
+    const menuToggle = document.getElementById("menuToggle");
+    const siteNav = document.getElementById("siteNav");
+
+    function updateHeaderOnScroll() {
+      if (window.scrollY > 30) {
+        header.classList.add("scrolled");
+      } else {
+        header.classList.remove("scrolled");
+      }
+    }
+
+    updateHeaderOnScroll();
+    window.addEventListener("scroll", updateHeaderOnScroll);
+
+    if (menuToggle && siteNav) {
+      menuToggle.addEventListener("click", function () {
+        menuToggle.classList.toggle("active");
+        siteNav.classList.toggle("active");
+      });
+    }
+  });
+</script>
+<body>
+  <header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="/jorge-maia-site/" class="site-logo" aria-label="Jorge Maia - Home">
+      <img src="/jorge-maia-site/assets%5Ccss/img/jorgemaialogomarcasemfundo.png" alt="Jorge Maia">
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <a href="/jorge-maia-site/">Home</a>
+      <a href="/jorge-maia-site/sobre/">Sobre</a>
+      <a href="/jorge-maia-site/podcast/">Podcast</a>
+      <a href="/jorge-maia-site/youtube/">Youtube</a>
+      <a href="/jorge-maia-site/projetos/">Projetos</a>
+      <a href="/jorge-maia-site/artigos/">Artigos</a>
+      <a href="/jorge-maia-site/premios/">Prêmios</a>
+      <a href="/jorge-maia-site/contato/" class="nav-cta">Contato</a>
+    </nav>
+  </div>
+</header>
+
+  <main>
+    <section class="hero-home">
+  <div class="hero-bg-effects">
+    <span class="hero-blur hero-blur-1"></span>
+    <span class="hero-blur hero-blur-2"></span>
+    <span class="hero-grid-lines"></span>
+  </div>
+
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <span class="eyebrow">Tecnologia • Inovação • Comunidade</span>
+
+      <h1>Jorge Maia</h1>
+
+      <h2>
+        Negócios conectados, conteúdo técnico e liderança em tecnologia
+      </h2>
+
+      <p>
+        Cientista da Computação, empreendedor, consultor, palestrante e criador de
+        iniciativas que conectam tecnologia, Internet das Coisas, nuvem, comunidade
+        e negócios digitais.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="/jorge-maia-site/sobre/">Conheça a trajetória</a>
+        <a class="btn btn-secondary" href="/jorge-maia-site/artigos/">Ver artigos</a>
+      </div>
+
+      <div class="hero-mini-info">
+        <div class="mini-item">
+          <strong>Conteúdo</strong>
+          <span>Artigos, vídeos e podcast</span>
+        </div>
+
+        <div class="mini-item">
+          <strong>Atuação</strong>
+          <span>Tecnologia, comunidade e negócios</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-image-wrap">
+        <span class="image-glow"></span>
+        <img src="/jorge-maia-site/assets%5Ccss/img/jorgemaia.jpg" alt="Jorge Maia" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="highlight-section">
+  <div class="container">
+    <div class="section-heading">
+      <span class="section-kicker">Ecossistema digital</span>
+      <h2>Conteúdo, comunidade e projetos</h2>
+      <p>
+        Uma visão organizada dos principais pilares da presença digital de Jorge Maia:
+        podcast, canal de conteúdo e projetos conectados ao universo da tecnologia.
+      </p>
+    </div>
+
+    <div class="cards-3">
+      <article class="info-card">
+        <div class="card-top">
+          <span class="card-tag">Podcast</span>
+          <h3>JorgeCast</h3>
+          <p>Conteúdo sobre IoT, inovação, tecnologia, carreira e negócios digitais.</p>
+        </div>
+
+        <div class="card-bottom">
+          <a href="/jorge-maia-site/podcast/" class="card-link">Explorar</a>
+          <div class="project-logo-wrap">
+            <img class="project-logo" src="/jorge-maia-site/assets%5Ccss/img/jorgecast2%20(2).png" alt="JorgeCast" />
+          </div>
+        </div>
+      </article>
+
+      <article class="info-card">
+        <div class="card-top">
+          <span class="card-tag">Conteúdo</span>
+          <h3>Canal no YouTube</h3>
+          <p>Vídeos, entrevistas, eventos, bastidores e materiais técnicos.</p>
+        </div>
+
+        <div class="card-bottom">
+          <a href="/jorge-maia-site/youtube/" class="card-link">Explorar</a>
+          <div class="project-logo-wrap">
+            <img class="project-logo" src="/jorge-maia-site/assets%5Ccss/img/jorgemaiayoutube.png" alt="Canal do Jorge Maia" />
+          </div>
+        </div>
+      </article>
+
+      <article class="info-card">
+        <div class="card-top">
+          <span class="card-tag">Empresas</span>
+          <h3>Projetos e negócios</h3>
+          <p>CrazyTechLabs, comunidade, eventos, iniciativas e produtos digitais.</p>
+        </div>
+
+        <div class="card-bottom">
+          <a href="/jorge-maia-site/projetos/" class="card-link">Explorar</a>
+          <div class="project-logo-wrap">
+            <img class="project-logo logo-ctl" src="/jorge-maia-site/assets%5Ccss/img/ctl.png" alt="CrazyTechLabs" />
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="bio-section">
+  <div class="bio-bg-effects">
+    <span class="bio-glow bio-glow-1"></span>
+    <span class="bio-glow bio-glow-2"></span>
+  </div>
+
+  <div class="container bio-grid">
+    <div class="bio-visual">
+      <div class="bio-image-wrap">
+        <img src="/jorge-maia-site/assets%5Ccss/img/jorgemaia5.png" alt="Jorge Maia em evento" />
+      </div>
+    </div>
+
+    <div class="bio-content">
+      <span class="bio-eyebrow">Sobre o profissional</span>
+
+      <h2>Mais de 20 anos em software, inovação e comunidade</h2>
+
+      <p>
+        Jorge Maia atua na interseção entre desenvolvimento de software, arquitetura,
+        Internet das Coisas, nuvem, educação, comunicação e empreendedorismo.
+      </p>
+
+      <p>
+        Além da atuação técnica e executiva, também mantém forte presença em eventos,
+        podcasts, vídeos, workshops, mentorias e projetos voltados ao ecossistema de tecnologia.
+      </p>
+
+      <div class="bio-highlights">
+        <div class="bio-highlight-item">
+          <strong>Atuação</strong>
+          <span>Software, IoT, nuvem e arquitetura</span>
+        </div>
+
+        <div class="bio-highlight-item">
+          <strong>Presença</strong>
+          <span>Eventos, conteúdo, workshops e comunidade</span>
+        </div>
+      </div>
+
+      <a class="btn btn-primary" href="/jorge-maia-site/sobre/">Ler história completa</a>
+    </div>
+  </div>
+</section>
+
+<section class="posts-section">
+  <div class="container">
+    <div class="section-heading center">
+      <span class="eyebrow">Publicações</span>
+      <h2>Artigos em destaque</h2>
+    </div>
+
+    <div class="posts-grid">
+      
+      
+      
+        <article class="post-card">
+          
+          <div class="post-image">
+            
+              <img src="/jorge-maia-site/assets%5Ccss/img/jorgecastS9E5.png" alt="JorgeCast S9E5 - Blockchain + IoT" />
+            
+          </div>
+
+          <div class="post-content">
+            <span class="card-tag">
+              ARTIGOS
+            </span>
+
+            <h3>
+              <a href="/jorge-maia-site/artigos/podcast/jorgecast-s9e5-blockchain-iot/">JorgeCast S9E5 - Blockchain + IoT</a>
+            </h3>
+
+            <p>
+              Aqui neste post você acompanha a pauta do JorgeCast S9E5.
+            </p>
+
+            <a class="post-link" href="/jorge-maia-site/artigos/podcast/jorgecast-s9e5-blockchain-iot/">
+              Ler mais →
+            </a>
+          </div>
+
+        </article>
+      
+        <article class="post-card">
+          
+          <div class="post-image">
+            
+              <img src="/jorge-maia-site/assets%5Ccss/img/jorgecasts9e4.png" alt="JorgeCast S9E4 - Internet of Behaviors (IoB)" />
+            
+          </div>
+
+          <div class="post-content">
+            <span class="card-tag">
+              ARTIGOS
+            </span>
+
+            <h3>
+              <a href="/jorge-maia-site/artigos/podcast/jorgecast-s9e4-iob/">JorgeCast S9E4 - Internet of Behaviors (IoB)</a>
+            </h3>
+
+            <p>
+              Aqui neste post você acompanha a pauta do JorgeCast S9E4.
+            </p>
+
+            <a class="post-link" href="/jorge-maia-site/artigos/podcast/jorgecast-s9e4-iob/">
+              Ler mais →
+            </a>
+          </div>
+
+        </article>
+      
+    </div>
+  </div>
+</section>
+
+<section class="awards-section">
+  <div class="container">
+    <div class="section-heading center">
+      <span class="eyebrow">Reconhecimento</span>
+      <h2>Prêmios e marcos profissionais</h2>
+      <p>
+        Destaques que reforçam trajetória, presença em comunidade, liderança técnica
+        e contribuição para o ecossistema de tecnologia.
+      </p>
+    </div>
+
+    <div class="awards-grid">
+      <article class="award-card">
+        <div class="award-image">
+          <img src="/jorge-maia-site/assets%5Ccss/img/premio.png" alt="Microsoft MVP" />
+        </div>
+
+        <div class="award-content">
+          <span class="award-tag">Reconhecimento</span>
+          <h3>Microsoft MVP</h3>
+          <p>
+            Reconhecimento por contribuição, compartilhamento de conhecimento e impacto
+            junto à comunidade técnica.
+          </p>
+        </div>
+      </article>
+
+      <article class="award-card">
+        <div class="award-image">
+          <img src="/jorge-maia-site/assets%5Ccss/img/premio2.png" alt="Eventos nacionais e internacionais" />
+        </div>
+
+        <div class="award-content">
+          <span class="award-tag">Participação</span>
+          <h3>Eventos nacionais e internacionais</h3>
+          <p>
+            Palestras, workshops, meetups, conteúdos e presença ativa em iniciativas
+            do ecossistema de tecnologia.
+          </p>
+        </div>
+      </article>
+
+      <article class="award-card">
+        <div class="award-image">
+          <img src="/jorge-maia-site/assets%5Ccss/img/premio3.png" alt="Liderança em tecnologia" />
+        </div>
+
+        <div class="award-content">
+          <span class="award-tag">Liderança</span>
+          <h3>Liderança em tecnologia</h3>
+          <p>
+            Atuação em empresas, projetos, comunidade e desenvolvimento de profissionais
+            ao longo da trajetória.
+          </p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+  </main>
+</body>
+</html>

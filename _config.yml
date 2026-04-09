@@ -1,0 +1,30 @@
+title: Jorge Maia
+description: Site profissional de Jorge Maia sobre tecnologia, inovação, IoT, comunidade e negócios digitais.
+baseurl: "/jorge-maia-site"
+url: "https://SEU-USUARIO.github.io"
+
+markdown: kramdown
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+collections:
+  paginas:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+
+sass:
+  style: compressed

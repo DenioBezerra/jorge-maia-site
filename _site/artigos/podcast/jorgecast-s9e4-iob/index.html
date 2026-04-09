@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JorgeCast S9E4 - Internet of Behaviors (IoB) | Jorge Maia</title>
+  <link rel="stylesheet" href="/jorge-maia-site/assets%5Ccss/style.css">
+</head>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const header = document.getElementById("siteHeader");
+    const menuToggle = document.getElementById("menuToggle");
+    const siteNav = document.getElementById("siteNav");
+
+    function updateHeaderOnScroll() {
+      if (window.scrollY > 30) {
+        header.classList.add("scrolled");
+      } else {
+        header.classList.remove("scrolled");
+      }
+    }
+
+    updateHeaderOnScroll();
+    window.addEventListener("scroll", updateHeaderOnScroll);
+
+    if (menuToggle && siteNav) {
+      menuToggle.addEventListener("click", function () {
+        menuToggle.classList.toggle("active");
+        siteNav.classList.toggle("active");
+      });
+    }
+  });
+</script>
+<body>
+  <header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="/jorge-maia-site/" class="site-logo" aria-label="Jorge Maia - Home">
+      <img src="/jorge-maia-site/assets%5Ccss/img/jorgemaialogomarcasemfundo.png" alt="Jorge Maia">
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <a href="/jorge-maia-site/">Home</a>
+      <a href="/jorge-maia-site/sobre/">Sobre</a>
+      <a href="/jorge-maia-site/podcast/">Podcast</a>
+      <a href="/jorge-maia-site/youtube/">Youtube</a>
+      <a href="/jorge-maia-site/projetos/">Projetos</a>
+      <a href="/jorge-maia-site/artigos/">Artigos</a>
+      <a href="/jorge-maia-site/premios/">Prêmios</a>
+      <a href="/jorge-maia-site/contato/" class="nav-cta">Contato</a>
+    </nav>
+  </div>
+</header>
+
+  <main>
+    <article class="post-layout">
+  <div class="container">
+    <div class="post-header">
+      <span class="eyebrow">Podcast</span>
+      <h1>JorgeCast S9E4 - Internet of Behaviors (IoB)</h1>
+      <p class="post-meta">
+        31/05/2025
+         • Jorge Maia
+      </p>
+    </div>
+
+    
+      <img class="post-cover" src="/jorge-maia-site/assets%5Ccss/img/jorgecasts9e4.png" alt="JorgeCast S9E4 - Internet of Behaviors (IoB)">
+    
+
+    <div class="post-content">
+      <p>Aqui neste post você acompanha a pauta do JorgeCast S9E4.</p>
+
+<p>A conversa aborda Internet of Behaviors, comportamento orientado por dados e o impacto disso em produtos, negócios e tecnologia.</p>
+
+    </div>
+  </div>
+</article>
+  </main>
+</body>
+</html>

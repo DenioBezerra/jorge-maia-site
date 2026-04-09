@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Podcast | Jorge Maia</title>
+  <link rel="stylesheet" href="/jorge-maia-site/assets%5Ccss/style.css">
+</head>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const header = document.getElementById("siteHeader");
+    const menuToggle = document.getElementById("menuToggle");
+    const siteNav = document.getElementById("siteNav");
+
+    function updateHeaderOnScroll() {
+      if (window.scrollY > 30) {
+        header.classList.add("scrolled");
+      } else {
+        header.classList.remove("scrolled");
+      }
+    }
+
+    updateHeaderOnScroll();
+    window.addEventListener("scroll", updateHeaderOnScroll);
+
+    if (menuToggle && siteNav) {
+      menuToggle.addEventListener("click", function () {
+        menuToggle.classList.toggle("active");
+        siteNav.classList.toggle("active");
+      });
+    }
+  });
+</script>
+<body>
+  <header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="/jorge-maia-site/" class="site-logo" aria-label="Jorge Maia - Home">
+      <img src="/jorge-maia-site/assets%5Ccss/img/jorgemaialogomarcasemfundo.png" alt="Jorge Maia">
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <a href="/jorge-maia-site/">Home</a>
+      <a href="/jorge-maia-site/sobre/">Sobre</a>
+      <a href="/jorge-maia-site/podcast/">Podcast</a>
+      <a href="/jorge-maia-site/youtube/">Youtube</a>
+      <a href="/jorge-maia-site/projetos/">Projetos</a>
+      <a href="/jorge-maia-site/artigos/">Artigos</a>
+      <a href="/jorge-maia-site/premios/">Prêmios</a>
+      <a href="/jorge-maia-site/contato/" class="nav-cta">Contato</a>
+    </nav>
+  </div>
+</header>
+
+  <main>
+    <section class="page-header">
+  <div class="container">
+    
+      <span class="eyebrow">JorgeCast</span>
+    
+
+    <h1>Podcast</h1>
+
+    
+      <p>Episódios, temas e presença do Jorge Maia no universo do podcast.</p>
+    
+  </div>
+</section>
+
+<section class="page-content">
+  <div class="container">
+    <div class="brand-showcase">
+  <img class="brand-logo" src="/jorge-maia-site/assets%5Ccss/img/jorgecastsemfundo.png" alt="JorgeCast" />
+</div>
+
+<h2>Sobre o JorgeCast</h2>
+<p>
+  O JorgeCast é um espaço de conversas sobre tecnologia, inovação, IoT, carreira, mercado
+  e transformação digital.
+</p>
+
+<h2>Temas abordados</h2>
+<ul>
+  <li>Internet das Coisas</li>
+  <li>Negócios digitais</li>
+  <li>Cloud e arquitetura</li>
+  <li>Comunidade e eventos</li>
+  <li>Tendências tecnológicas</li>
+</ul>
+
+<h2>Episódios em destaque</h2>
+<div class="cards-3">
+  
+  
+    <article class="post-card">
+      <h3><a href="/jorge-maia-site/artigos/podcast/jorgecast-s9e5-blockchain-iot/">JorgeCast S9E5 - Blockchain + IoT</a></h3>
+      <p>Aqui neste post você acompanha a pauta do JorgeCast S9E5.</p>
+    </article>
+  
+    <article class="post-card">
+      <h3><a href="/jorge-maia-site/artigos/podcast/jorgecast-s9e4-iob/">JorgeCast S9E4 - Internet of Behaviors (IoB)</a></h3>
+      <p>Aqui neste post você acompanha a pauta do JorgeCast S9E4.</p>
+    </article>
+  
+</div>
+
+  </div>
+</section>
+  </main>
+</body>
+</html>

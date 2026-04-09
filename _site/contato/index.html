@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | Jorge Maia</title>
+  <link rel="stylesheet" href="/jorge-maia-site/assets%5Ccss/style.css">
+</head>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const header = document.getElementById("siteHeader");
+    const menuToggle = document.getElementById("menuToggle");
+    const siteNav = document.getElementById("siteNav");
+
+    function updateHeaderOnScroll() {
+      if (window.scrollY > 30) {
+        header.classList.add("scrolled");
+      } else {
+        header.classList.remove("scrolled");
+      }
+    }
+
+    updateHeaderOnScroll();
+    window.addEventListener("scroll", updateHeaderOnScroll);
+
+    if (menuToggle && siteNav) {
+      menuToggle.addEventListener("click", function () {
+        menuToggle.classList.toggle("active");
+        siteNav.classList.toggle("active");
+      });
+    }
+  });
+</script>
+<body>
+  <header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="/jorge-maia-site/" class="site-logo" aria-label="Jorge Maia - Home">
+      <img src="/jorge-maia-site/assets%5Ccss/img/jorgemaialogomarcasemfundo.png" alt="Jorge Maia">
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <a href="/jorge-maia-site/">Home</a>
+      <a href="/jorge-maia-site/sobre/">Sobre</a>
+      <a href="/jorge-maia-site/podcast/">Podcast</a>
+      <a href="/jorge-maia-site/youtube/">Youtube</a>
+      <a href="/jorge-maia-site/projetos/">Projetos</a>
+      <a href="/jorge-maia-site/artigos/">Artigos</a>
+      <a href="/jorge-maia-site/premios/">Prêmios</a>
+      <a href="/jorge-maia-site/contato/" class="nav-cta">Contato</a>
+    </nav>
+  </div>
+</header>
+
+  <main>
+    <section class="page-header">
+  <div class="container">
+    
+      <span class="eyebrow">Fale com Jorge Maia</span>
+    
+
+    <h1>Contato</h1>
+
+    
+      <p>Informações de contato, localização e canais profissionais.</p>
+    
+  </div>
+</section>
+
+<section class="page-content">
+  <div class="container">
+    <div class="contact-grid">
+  <div>
+    <h2>Entre em contato</h2>
+    <p>Será um prazer responder seu contato.</p>
+    <ul>
+      <li><strong>Localização:</strong> Brasília, São Paulo</li>
+      <li><strong>Email:</strong> jm@jorgemaia.com.br</li>
+      <li><strong>Telefone:</strong> +55 (61) 99119-4929</li>
+    </ul>
+  </div>
+
+  <div class="contact-card">
+    <h3>Canais</h3>
+    <p>LinkedIn, Youtube, Instagram, podcast e demais redes profissionais.</p>
+  </div>
+</div>
+
+  </div>
+</section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JorgeCast S9E5 - Blockchain + IoT | Jorge Maia</title>
+  <link rel="stylesheet" href="/jorge-maia-site/assets%5Ccss/style.css">
+</head>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const header = document.getElementById("siteHeader");
+    const menuToggle = document.getElementById("menuToggle");
+    const siteNav = document.getElementById("siteNav");
+
+    function updateHeaderOnScroll() {
+      if (window.scrollY > 30) {
+        header.classList.add("scrolled");
+      } else {
+        header.classList.remove("scrolled");
+      }
+    }
+
+    updateHeaderOnScroll();
+    window.addEventListener("scroll", updateHeaderOnScroll);
+
+    if (menuToggle && siteNav) {
+      menuToggle.addEventListener("click", function () {
+        menuToggle.classList.toggle("active");
+        siteNav.classList.toggle("active");
+      });
+    }
+  });
+</script>
+<body>
+  <header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="/jorge-maia-site/" class="site-logo" aria-label="Jorge Maia - Home">
+      <img src="/jorge-maia-site/assets%5Ccss/img/jorgemaialogomarcasemfundo.png" alt="Jorge Maia">
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <a href="/jorge-maia-site/">Home</a>
+      <a href="/jorge-maia-site/sobre/">Sobre</a>
+      <a href="/jorge-maia-site/podcast/">Podcast</a>
+      <a href="/jorge-maia-site/youtube/">Youtube</a>
+      <a href="/jorge-maia-site/projetos/">Projetos</a>
+      <a href="/jorge-maia-site/artigos/">Artigos</a>
+      <a href="/jorge-maia-site/premios/">Prêmios</a>
+      <a href="/jorge-maia-site/contato/" class="nav-cta">Contato</a>
+    </nav>
+  </div>
+</header>
+
+  <main>
+    <article class="post-layout">
+  <div class="container">
+    <div class="post-header">
+      <span class="eyebrow">Podcast</span>
+      <h1>JorgeCast S9E5 - Blockchain + IoT</h1>
+      <p class="post-meta">
+        07/06/2025
+         • Jorge Maia
+      </p>
+    </div>
+
+    
+      <img class="post-cover" src="/jorge-maia-site/assets%5Ccss/img/jorgecastS9E5.png" alt="JorgeCast S9E5 - Blockchain + IoT">
+    
+
+    <div class="post-content">
+      <p>Aqui neste post você acompanha a pauta do JorgeCast S9E5.</p>
+
+<p>Neste episódio, os temas centrais giram em torno de blockchain, Internet das Coisas e impactos em negócios digitais.</p>
+
+<h2 id="tópicos-do-episódio">Tópicos do episódio</h2>
+
+<ul>
+  <li>Blockchain aplicada a ecossistemas conectados</li>
+  <li>IoT e confiança em redes distribuídas</li>
+  <li>Oportunidades para negócios digitais</li>
+  <li>Tendências e desafios do mercado</li>
+</ul>
+
+    </div>
+  </div>
+</article>
+  </main>
+</body>
+</html>

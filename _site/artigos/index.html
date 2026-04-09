@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artigos | Jorge Maia</title>
+  <link rel="stylesheet" href="/jorge-maia-site/assets%5Ccss/style.css">
+</head>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const header = document.getElementById("siteHeader");
+    const menuToggle = document.getElementById("menuToggle");
+    const siteNav = document.getElementById("siteNav");
+
+    function updateHeaderOnScroll() {
+      if (window.scrollY > 30) {
+        header.classList.add("scrolled");
+      } else {
+        header.classList.remove("scrolled");
+      }
+    }
+
+    updateHeaderOnScroll();
+    window.addEventListener("scroll", updateHeaderOnScroll);
+
+    if (menuToggle && siteNav) {
+      menuToggle.addEventListener("click", function () {
+        menuToggle.classList.toggle("active");
+        siteNav.classList.toggle("active");
+      });
+    }
+  });
+</script>
+<body>
+  <header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="/jorge-maia-site/" class="site-logo" aria-label="Jorge Maia - Home">
+      <img src="/jorge-maia-site/assets%5Ccss/img/jorgemaialogomarcasemfundo.png" alt="Jorge Maia">
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <a href="/jorge-maia-site/">Home</a>
+      <a href="/jorge-maia-site/sobre/">Sobre</a>
+      <a href="/jorge-maia-site/podcast/">Podcast</a>
+      <a href="/jorge-maia-site/youtube/">Youtube</a>
+      <a href="/jorge-maia-site/projetos/">Projetos</a>
+      <a href="/jorge-maia-site/artigos/">Artigos</a>
+      <a href="/jorge-maia-site/premios/">Prêmios</a>
+      <a href="/jorge-maia-site/contato/" class="nav-cta">Contato</a>
+    </nav>
+  </div>
+</header>
+
+  <main>
+    <section class="page-header">
+  <div class="container">
+    
+      <span class="eyebrow">Blog</span>
+    
+
+    <h1>Artigos</h1>
+
+    
+      <p>Artigos de opinião, tecnologia, podcast, eventos e conteúdo técnico.</p>
+    
+  </div>
+</section>
+
+<section class="page-content">
+  <div class="container">
+    <h2>Publicações</h2>
+<p>
+  Reunião dos conteúdos publicados por Jorge Maia, incluindo opinião, tecnologia,
+  podcast, eventos e materiais técnicos.
+</p>
+
+<div class="cards-3">
+  
+    <article class="post-card">
+      <span class="card-tag">Podcast</span>
+      <h3><a href="/jorge-maia-site/artigos/podcast/jorgecast-s9e5-blockchain-iot/">JorgeCast S9E5 - Blockchain + IoT</a></h3>
+      <p>Aqui neste post você acompanha a pauta do JorgeCast S9E5.</p>
+      <a href="/jorge-maia-site/artigos/podcast/jorgecast-s9e5-blockchain-iot/">Ler mais</a>
+    </article>
+  
+    <article class="post-card">
+      <span class="card-tag">Podcast</span>
+      <h3><a href="/jorge-maia-site/artigos/podcast/jorgecast-s9e4-iob/">JorgeCast S9E4 - Internet of Behaviors (IoB)</a></h3>
+      <p>Aqui neste post você acompanha a pauta do JorgeCast S9E4.</p>
+      <a href="/jorge-maia-site/artigos/podcast/jorgecast-s9e4-iob/">Ler mais</a>
+    </article>
+  
+    <article class="post-card">
+      <span class="card-tag">Artigo Técnico</span>
+      <h3><a href="/jorge-maia-site/artigos-tecnicos/artigo%20t%C3%A9cnico/cinto-de-ferramentas-terminal-mac/">Cinto de Ferramentas - Como Configurar o terminal no Mac</a></h3>
+      <p>Atualizado para o Mac OS Ventura 13.0.</p>
+      <a href="/jorge-maia-site/artigos-tecnicos/artigo%20t%C3%A9cnico/cinto-de-ferramentas-terminal-mac/">Ler mais</a>
+    </article>
+  
+    <article class="post-card">
+      <span class="card-tag">Artigo Técnico</span>
+      <h3><a href="/jorge-maia-site/artigos-tecnicos/artigo%20t%C3%A9cnico/thumbsup-thumbnails-mac/">Cinto de Ferramentas - Como criar thumbnails no MAC com o ThumbsUp</a></h3>
+      <p>Ferramenta útil para criar thumbnails de várias imagens de uma só vez.</p>
+      <a href="/jorge-maia-site/artigos-tecnicos/artigo%20t%C3%A9cnico/thumbsup-thumbnails-mac/">Ler mais</a>
+    </article>
+  
+</div>
+
+  </div>
+</section>
+  </main>
+</body>
+</html>

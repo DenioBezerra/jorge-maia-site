@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prêmios | Jorge Maia</title>
+  <link rel="stylesheet" href="/jorge-maia-site/assets%5Ccss/style.css">
+</head>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const header = document.getElementById("siteHeader");
+    const menuToggle = document.getElementById("menuToggle");
+    const siteNav = document.getElementById("siteNav");
+
+    function updateHeaderOnScroll() {
+      if (window.scrollY > 30) {
+        header.classList.add("scrolled");
+      } else {
+        header.classList.remove("scrolled");
+      }
+    }
+
+    updateHeaderOnScroll();
+    window.addEventListener("scroll", updateHeaderOnScroll);
+
+    if (menuToggle && siteNav) {
+      menuToggle.addEventListener("click", function () {
+        menuToggle.classList.toggle("active");
+        siteNav.classList.toggle("active");
+      });
+    }
+  });
+</script>
+<body>
+  <header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="/jorge-maia-site/" class="site-logo" aria-label="Jorge Maia - Home">
+      <img src="/jorge-maia-site/assets%5Ccss/img/jorgemaialogomarcasemfundo.png" alt="Jorge Maia">
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <a href="/jorge-maia-site/">Home</a>
+      <a href="/jorge-maia-site/sobre/">Sobre</a>
+      <a href="/jorge-maia-site/podcast/">Podcast</a>
+      <a href="/jorge-maia-site/youtube/">Youtube</a>
+      <a href="/jorge-maia-site/projetos/">Projetos</a>
+      <a href="/jorge-maia-site/artigos/">Artigos</a>
+      <a href="/jorge-maia-site/premios/">Prêmios</a>
+      <a href="/jorge-maia-site/contato/" class="nav-cta">Contato</a>
+    </nav>
+  </div>
+</header>
+
+  <main>
+    <section class="page-header">
+  <div class="container">
+    
+      <span class="eyebrow">Reconhecimentos</span>
+    
+
+    <h1>Prêmios</h1>
+
+    
+      <p>Reconhecimentos profissionais, premiações e marcos da carreira.</p>
+    
+  </div>
+</section>
+
+<section class="page-content">
+  <div class="container">
+    <h2>Prêmios e reconhecimentos</h2>
+<p>
+  Página dedicada aos principais marcos profissionais e reconhecimentos recebidos
+  ao longo da trajetória.
+</p>
+
+<div class="cards-3">
+  <div class="info-card">
+    <h3>MVP Award 2016</h3>
+    <p>Reconhecimento da Microsoft na categoria Azure.</p>
+  </div>
+  <div class="info-card">
+    <h3>MVP Award 2017</h3>
+    <p>Continuidade da contribuição à comunidade técnica.</p>
+  </div>
+  <div class="info-card">
+    <h3>MVP Award 2018–2022</h3>
+    <p>Sequência de reconhecimentos pela atuação em tecnologia e comunidade.</p>
+  </div>
+</div>
+
+  </div>
+</section>
+  </main>
+</body>
+</html>
