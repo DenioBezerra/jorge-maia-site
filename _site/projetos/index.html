@@ -4,33 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projetos e Empresas | Jorge Maia</title>
-  <link rel="stylesheet" href="/jorge-maia-site/assets%5Ccss/style.css">
+  <link rel="stylesheet" href="/jorge-maia-site/assets/css/style.css">
 </head>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const header = document.getElementById("siteHeader");
-    const menuToggle = document.getElementById("menuToggle");
-    const siteNav = document.getElementById("siteNav");
-
-    function updateHeaderOnScroll() {
-      if (window.scrollY > 30) {
-        header.classList.add("scrolled");
-      } else {
-        header.classList.remove("scrolled");
-      }
-    }
-
-    updateHeaderOnScroll();
-    window.addEventListener("scroll", updateHeaderOnScroll);
-
-    if (menuToggle && siteNav) {
-      menuToggle.addEventListener("click", function () {
-        menuToggle.classList.toggle("active");
-        siteNav.classList.toggle("active");
-      });
-    }
-  });
-</script>
 <body>
   <header class="site-header" id="siteHeader">
   <div class="container header-inner">
@@ -64,7 +39,9 @@
       <span class="eyebrow">Iniciativas</span>
     
 
-    <h1>Projetos e Empresas</h1>
+    
+      <h1>Projetos e Empresas</h1>
+    
 
     
       <p>Empresas, marcas, projetos, comunidade e presença profissional.</p>
@@ -97,5 +74,37 @@
   </div>
 </section>
   </main>
+
+  <footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>Jorge Maia</h3>
+      <p>
+        Tecnologia, inovação, comunidade, negócios digitais e conteúdo técnico.
+      </p>
+    </div>
+
+    <div>
+      <h4>Navegação</h4>
+      <ul>
+        <li><a href="/jorge-maia-site/sobre/">Sobre</a></li>
+        <li><a href="/jorge-maia-site/podcast/">Podcast</a></li>
+        <li><a href="/jorge-maia-site/youtube/">Youtube</a></li>
+        <li><a href="/jorge-maia-site/projetos/">Projetos</a></li>
+        <li><a href="/jorge-maia-site/premios/">Prêmios</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Contato</h4>
+      <p><a href="mailto:jm@jorgemaia.com.br">jm@jorgemaia.com.br</a></p>
+      <p>Brasília • São Paulo • Recife</p>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <p>© 2026 Jorge Maia. Todos os direitos reservados.</p>
+  </div>
+</footer>
 </body>
 </html>
