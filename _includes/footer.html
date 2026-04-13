@@ -1,31 +1,60 @@
 <footer class="site-footer">
-  <div class="container footer-grid">
-    <div>
-      <h3>Jorge Maia</h3>
+  <div class="container footer-grid-pro">
+
+    <!-- COLUNA 1 -->
+    <div class="footer-brand">
+      <img src="{{ '/assets\css/img/jorgemaialogomarcasemfundo.png' | relative_url }}" alt="Jorge Maia">
+      
       <p>
-        Tecnologia, inovação, comunidade, negócios digitais e conteúdo técnico.
+        Tecnologia, inovação, comunidade e negócios digitais.
+        Conteúdo técnico e iniciativas que conectam pessoas e ideias.
       </p>
+
+      <div class="footer-socials">
+        <a href="#"><span>🔗</span></a>
+        <a href="#"><span>📺</span></a>
+        <a href="#"><span>📸</span></a>
+      </div>
     </div>
 
-    <div>
+    <!-- COLUNA 2 -->
+    <div class="footer-links">
       <h4>Navegação</h4>
       <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
         <li><a href="{{ '/sobre/' | relative_url }}">Sobre</a></li>
-        <li><a href="{{ '/podcast/' | relative_url }}">Podcast</a></li>
-        <li><a href="{{ '/youtube/' | relative_url }}">Youtube</a></li>
+        <li><a href="{{ '/artigos/' | relative_url }}">Artigos</a></li>
         <li><a href="{{ '/projetos/' | relative_url }}">Projetos</a></li>
         <li><a href="{{ '/premios/' | relative_url }}">Prêmios</a></li>
       </ul>
     </div>
 
-    <div>
-      <h4>Contato</h4>
-      <p><a href="mailto:jm@jorgemaia.com.br">jm@jorgemaia.com.br</a></p>
-      <p>Brasília • São Paulo • Recife</p>
+    <!-- COLUNA 3 -->
+    <div class="footer-links">
+      <h4>Conteúdo</h4>
+      <ul>
+        <li><a href="{{ '/podcast/' | relative_url }}">🎙 Podcast</a></li>
+        <li><a href="{{ '/youtube/' | relative_url }}">📺 Youtube</a></li>
+        <li><a href="{{ '/contato/' | relative_url }}">📩 Contato</a></li>
+      </ul>
     </div>
+
+    <!-- COLUNA 4 -->
+    <div class="footer-contact">
+      <h4>Contato</h4>
+
+      <p>
+        📧 <a href="mailto:jm@jorgemaia.com.br">jm@jorgemaia.com.br</a>
+      </p>
+
+      <p>📍 Brasília • São Paulo • Recife</p>
+
+      <p>📞 <a href="tel:+5561991194929">+55 (61) 99119-4929</a></p>
+    </div>
+
   </div>
 
-  <div class="container footer-bottom">
+  <div class="container footer-bottom-pro">
     <p>© {{ "now" | date: "%Y" }} Jorge Maia. Todos os direitos reservados.</p>
   </div>
 </footer>
