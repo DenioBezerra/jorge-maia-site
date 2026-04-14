@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /podcast/
-eyebrow: JorgeCast
+
 ---
 
 <section class="podcast-showcase">

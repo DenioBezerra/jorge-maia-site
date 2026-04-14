@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /sobre/
-eyebrow: O Jorge Maia
+
 ---
 
 <section class="about-highlight">

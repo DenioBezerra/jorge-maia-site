@@ -1,9 +1,7 @@
 ---
 layout: page
-title: Projetos e Empresas
 permalink: /projetos/
-eyebrow: Iniciativas
-description: Empresas, marcas, projetos, comunidade e presença profissional.
+
 ---
 
 <section class="projects-page">

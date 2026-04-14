@@ -50,20 +50,26 @@ permalink: /youtube/
 
 
     <div class="youtube-grid-pro">
-      <article class="youtube-card-pro">
-        <div class="youtube-card-image">
-          <img src="{{ '/assets\css/img/eventosyoutube.png' | relative_url }}" alt="Eventos no YouTube">
-        </div>
+      <a href="https://www.youtube.com/watch?v=ml-sq4ZQmb8&t=8s" target="_blank" class="youtube-card-link">
+  
+  <article class="youtube-card-pro">
+    
+    <div class="youtube-card-image">
+      <img src="{{ '/assets\css/img/eventosyoutube.png' | relative_url }}">
+    </div>
 
-        <div class="youtube-card-content">
-          <span class="youtube-badge">Eventos</span>
-          <h4>Cobertura e bastidores</h4>
-          <p>
-            Participações em eventos, workshops, apresentações, bastidores e presença
-            em atividades da comunidade de tecnologia.
-          </p>
-        </div>
-      </article>
+    <div class="youtube-card-content">
+      <span class="youtube-badge">Eventos</span>
+      <h4>Cobertura e bastidores</h4>
+      <p>
+        Participações em eventos, workshops, apresentações e bastidores.
+      </p>
+    </div>
+
+  </article>
+
+</a>
+     <a href="https://www.youtube.com/watch?v=pScepwC444c" target="_blank" class="youtube-card-link">
   
       <article class="youtube-card-pro">
         <div class="youtube-card-image">
@@ -79,7 +85,8 @@ permalink: /youtube/
           </p>
         </div>
       </article>
-
+    </a>
+    <a href="https://www.youtube.com/watch?v=6zWwCB30nag" target="_blank" class="youtube-card-link">
       <article class="youtube-card-pro">
         <div class="youtube-card-image">
           <img src="{{ '/assets\css/img/protocoloyoutube.png' | relative_url }}" alt="Conteúdo técnico no YouTube">
@@ -94,6 +101,5 @@ permalink: /youtube/
           </p>
         </div>
       </article>
-    </div>
-  </div>
-</section>
+    
+</a>
