@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 layout: page-clean
+=======
+layout: page
+>>>>>>> 3028af4c5560c319203bbff6be2d04731bacb7e5
 
 permalink: /artigos/
 

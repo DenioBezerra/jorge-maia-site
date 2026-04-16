@@ -59,6 +59,7 @@ permalink: /youtube/
       </p>
     </div>
 
+<<<<<<< HEAD
     <div class="youtube-apple-grid">
       <article class="youtube-apple-card">
         <div class="youtube-apple-card-image">
@@ -77,6 +78,33 @@ permalink: /youtube/
 
       <article class="youtube-apple-card">
         <div class="youtube-apple-card-image">
+=======
+
+    <div class="youtube-grid-pro">
+      <a href="https://www.youtube.com/watch?v=ml-sq4ZQmb8&t=8s" target="_blank" class="youtube-card-link">
+  
+  <article class="youtube-card-pro">
+    
+    <div class="youtube-card-image">
+      <img src="{{ '/assets\css/img/eventosyoutube.png' | relative_url }}">
+    </div>
+
+    <div class="youtube-card-content">
+      <span class="youtube-badge">Eventos</span>
+      <h4>Cobertura e bastidores</h4>
+      <p>
+        Participações em eventos, workshops, apresentações e bastidores.
+      </p>
+    </div>
+
+  </article>
+
+</a>
+     <a href="https://www.youtube.com/watch?v=pScepwC444c" target="_blank" class="youtube-card-link">
+  
+      <article class="youtube-card-pro">
+        <div class="youtube-card-image">
+>>>>>>> 3028af4c5560c319203bbff6be2d04731bacb7e5
           <img src="{{ '/assets\css/img/entrevistasyoutube.png' | relative_url }}" alt="Entrevistas no YouTube">
         </div>
 
@@ -89,9 +117,16 @@ permalink: /youtube/
           </p>
         </div>
       </article>
+<<<<<<< HEAD
 
       <article class="youtube-apple-card">
         <div class="youtube-apple-card-image">
+=======
+    </a>
+    <a href="https://www.youtube.com/watch?v=6zWwCB30nag" target="_blank" class="youtube-card-link">
+      <article class="youtube-card-pro">
+        <div class="youtube-card-image">
+>>>>>>> 3028af4c5560c319203bbff6be2d04731bacb7e5
           <img src="{{ '/assets\css/img/protocoloyoutube.png' | relative_url }}" alt="Conteúdo técnico no YouTube">
         </div>
 
@@ -104,6 +139,5 @@ permalink: /youtube/
           </p>
         </div>
       </article>
-    </div>
-  </div>
-</section>
+    
+</a>

@@ -25,14 +25,32 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+html, body {
+  min-height: 100%;
   margin: 0;
-  font-family: Inter, Arial, sans-serif;
+}
+
+body {
+  position: relative;
+  background: #020617;
+}
+
+.site-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
   background:
-    radial-gradient(circle at top left, rgba(39,160,255,.18), transparent 28%),
-    radial-gradient(circle at top right, rgba(20,209,127,.14), transparent 22%),
-    linear-gradient(180deg, #07111f 0%, #091727 100%);
-  color: var(--text);
+    linear-gradient(rgba(2, 6, 23, 0.88), rgba(2, 6, 23, 0.92)),
+    url('/jorge-maia-site/assets\css/img/fundosite.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+/* melhora contraste dos cards */
+.info-card,
+.post-card,
+.contact-card {
+  backdrop-filter: blur(10px);
+  background: rgba(10, 20, 40, 0.7);
 }
 
 img {
@@ -85,7 +103,7 @@ a {
 }
 
 .hero-home {
-  padding: 5rem 0 3rem;
+  padding: 3rem 0 1rem;
 }
 
 .hero-grid,
@@ -710,11 +728,11 @@ header {
 .hero-home {
   position: relative;
   overflow: hidden;
-  padding: 150px 0 110px;
-  background:
-    radial-gradient(circle at top left, rgba(43, 195, 255, 0.10), transparent 28%),
-    radial-gradient(circle at top right, rgba(61, 217, 179, 0.10), transparent 24%),
-    linear-gradient(90deg, #03101d 0%, #04172a 45%, #03101d 100%);
+  padding: 72px 0 56px;
+  background: 
+    linear-gradient(120deg, rgba(2,6,23,0.95), rgba(2,6,23,0.7)),
+    url('/assets\css/img/fundosite.jpg') no-repeat center center;
+  background-size: cover;
 }
 
 .hero-bg-effects {
@@ -762,7 +780,7 @@ header {
   display: grid;
   grid-template-columns: 1.08fr 0.92fr;
   align-items: center;
-  gap: 56px;
+  gap: 36px;
 }
 
 .hero-text {
@@ -782,11 +800,11 @@ header {
   font-weight: 800;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  margin-bottom: 26px;
+  margin-bottom: 18px;
 }
 
 .hero-text h1 {
-  margin: 0 0 18px;
+  margin: 0 0 12px;
   color: #e8f1ff;
   font-size: clamp(56px, 9vw, 112px);
   line-height: 0.92;
@@ -795,7 +813,7 @@ header {
 }
 
 .hero-text h2 {
-  margin: 0 0 24px;
+  margin: 0 0 16px;
   color: #b7c9df;
   font-size: clamp(28px, 3vw, 44px);
   line-height: 1.18;
@@ -813,9 +831,9 @@ header {
 
 .hero-actions {
   display: flex;
-  gap: 16px;
+  gap: 12px;
   flex-wrap: wrap;
-  margin-top: 38px;
+  margin-top: 24px;
 }
 
 .btn {
@@ -856,18 +874,14 @@ header {
 .hero-mini-info {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
-  margin-top: 42px;
+  gap: 12px;
+  margin-top: 24px;
 }
 
 .mini-item {
-  min-width: 220px;
-  padding: 18px 20px;
-  border-radius: 18px;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.07);
-  backdrop-filter: blur(10px);
-}
+  min-width: 190px;
+  padding: 14px 16px;
+  border-radius: 16px;
 
 .mini-item strong {
   display: block;
@@ -890,14 +904,9 @@ header {
 .hero-image-wrap {
   position: relative;
   width: 100%;
-  max-width: 620px;
-  border-radius: 34px;
-  padding: 14px;
-  background: linear-gradient(180deg, rgba(255,255,255,0.10), rgba(255,255,255,0.03));
-  border: 1px solid rgba(255,255,255,0.08);
-  box-shadow: 0 30px 70px rgba(0,0,0,0.30);
-  backdrop-filter: blur(14px);
-}
+  max-width: 540px;
+  border-radius: 28px;
+  padding: 10px;
 
 .image-glow {
   position: absolute;
@@ -915,13 +924,8 @@ header {
   position: relative;
   z-index: 1;
   width: 100%;
-  height: 540px;
-  object-fit: cover;
-  object-position: center center;
-  display: block;
-  border-radius: 26px;
+  height: 470px;
 }
-
 @media (max-width: 1100px) {
   .hero-grid {
     grid-template-columns: 1fr;
@@ -947,7 +951,7 @@ header {
 
 @media (max-width: 768px) {
   .hero-home {
-    padding: 130px 0 90px;
+    padding: 90px 0 50px;
   }
 
   .hero-text h1 {
@@ -1579,7 +1583,7 @@ header {
 .about-highlight {
   position: relative;
   overflow: hidden;
-  padding: 110px 0;
+  padding: 80px 0;
   background:
     radial-gradient(circle at top left, rgba(43, 195, 255, 0.08), transparent 28%),
     linear-gradient(180deg, #03101d 0%, #04182b 100%);
@@ -1727,7 +1731,7 @@ header {
 
 @media (max-width: 768px) {
   .about-highlight {
-    padding: 90px 0;
+    padding: 50px 0;
   }
 
   .about-photo-card {
@@ -3394,6 +3398,7 @@ header {
     linear-gradient(180deg, #03101d 0%, #04182b 100%);
 }
 
+<<<<<<< HEAD
 .page-content {
   padding-top: 0 !important;
   margin-top: 0 !important;
@@ -4365,3 +4370,5 @@ main {
     height: 180px;
   }
 }
+=======
+>>>>>>> 3028af4c5560c319203bbff6be2d04731bacb7e5
