@@ -1,9 +1,8 @@
 ---
-layout: page
-title: Artigos
+layout: page-clean
+
 permalink: /artigos/
-eyebrow: Publicações
-description: Artigos de opinião, tecnologia, podcast, eventos e conteúdo técnico.
+
 ---
 
 <section class="articles-page">

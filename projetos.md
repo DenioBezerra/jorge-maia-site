@@ -1,50 +1,54 @@
 ---
-layout: page
-title: Projetos e Empresas
+layout: page-clean
 permalink: /projetos/
-eyebrow: Iniciativas
-description: Empresas, marcas, projetos, comunidade e presença profissional.
 ---
 
-<section class="projects-page">
-  <div class="container">
-    <div class="projects-hero">
-      <div class="projects-hero-copy">
-        <span class="projects-kicker">Ecossistema profissional</span>
-        <h2>Projetos, marcas e iniciativas</h2>
-        <p>
-          Uma visão das frentes que conectam conteúdo, comunidade, tecnologia,
-          inovação e presença profissional no ecossistema digital.
-        </p>
+<section class="projects-apple">
+  <div class="container projects-apple-hero">
+    <div class="projects-apple-copy">
+      <span class="projects-apple-kicker">Ecossistema profissional</span>
 
-        <div class="projects-mini-points">
-          <div class="projects-mini-item">
-            <strong>Conteúdo</strong>
-            <span>Podcast, YouTube e artigos</span>
-          </div>
+      <h2>Projetos, marcas e iniciativas</h2>
 
-          <div class="projects-mini-item">
-            <strong>Negócios</strong>
-            <span>Marcas, projetos e atuação profissional</span>
-          </div>
+      <p class="projects-apple-lead">
+        Uma visão das frentes que conectam conteúdo, comunidade, tecnologia,
+        inovação e presença profissional no ecossistema digital.
+      </p>
+
+      <p>
+        Iniciativas que organizam a presença do Jorge Maia entre conteúdo, negócios,
+        marca pessoal e participação no mercado de tecnologia.
+      </p>
+
+      <div class="projects-apple-points">
+        <div class="projects-apple-point">
+          <strong>Conteúdo</strong>
+          <span>Podcast, YouTube e artigos</span>
         </div>
-      </div>
 
-      <div class="projects-hero-side">
-        <div class="projects-side-card">
-          <img src="{{ '/assets\css/img/jorgemaialogomarcasemfundo.png' | relative_url }}" alt="Jorge Maia">
+        <div class="projects-apple-point">
+          <strong>Negócios</strong>
+          <span>Marcas, projetos e atuação profissional</span>
         </div>
       </div>
     </div>
 
-    <div class="projects-grid-pro">
-      <article class="project-card-pro">
-        <div class="project-logo-wrap">
-          <img class="project-logo-pro logo-ctl" src="{{ '/assets\css/img/ctl.png' | relative_url }}" alt="CrazyTechLabs">
+    <div class="projects-apple-visual">
+      <div class="projects-apple-side-card">
+        <img src="{{ '/assets\css/img/jorgemaialogomarcasemfundo.png' | relative_url }}" alt="Jorge Maia">
+      </div>
+    </div>
+  </div>
+
+  <div class="container projects-apple-list">
+    <div class="projects-apple-grid">
+      <article class="projects-apple-card">
+        <div class="projects-apple-card-image">
+          <img src="{{ '/assets\css/img/ctl.png' | relative_url }}" alt="CrazyTechLabs">
         </div>
 
-        <div class="project-card-content">
-          <span class="project-badge">Empresa</span>
+        <div class="projects-apple-card-content">
+          <span class="projects-apple-tag">Empresa</span>
           <h3>CrazyTechLabs</h3>
           <p>
             Empresa voltada a tecnologia, inovação, produtos digitais e soluções conectadas.
@@ -52,13 +56,13 @@ description: Empresas, marcas, projetos, comunidade e presença profissional.
         </div>
       </article>
 
-      <article class="project-card-pro">
-        <div class="project-logo-wrap">
-          <img class="project-logo-pro" src="{{ '/assets\css/img/jorgecastsemfundo.png' | relative_url }}" alt="JorgeCast">
+      <article class="projects-apple-card">
+        <div class="projects-apple-card-image">
+          <img src="{{ '/assets\css/img/jorgecastsemfundo.png' | relative_url }}" alt="JorgeCast">
         </div>
 
-        <div class="project-card-content">
-          <span class="project-badge">Podcast</span>
+        <div class="projects-apple-card-content">
+          <span class="projects-apple-tag">Podcast</span>
           <h3>JorgeCast</h3>
           <p>
             Podcast com foco em IoT, inovação, negócios digitais e tecnologia.
@@ -66,13 +70,13 @@ description: Empresas, marcas, projetos, comunidade e presença profissional.
         </div>
       </article>
 
-      <article class="project-card-pro">
-        <div class="project-logo-wrap">
-          <img class="project-logo-pro" src="{{ '/assets\css/img/jorgemaialogomarcasemfundo.png' | relative_url }}" alt="Marca Jorge Maia">
+      <article class="projects-apple-card">
+        <div class="projects-apple-card-image">
+          <img src="{{ '/assets\css/img/jorgemaialogomarcasemfundo.png' | relative_url }}" alt="Marca Jorge Maia">
         </div>
 
-        <div class="project-card-content">
-          <span class="project-badge">Marca pessoal</span>
+        <div class="projects-apple-card-content">
+          <span class="projects-apple-tag">Marca pessoal</span>
           <h3>Presença digital</h3>
           <p>
             Artigos, eventos, conteúdos, palestras, comunidade e atuação no mercado.
@@ -81,12 +85,12 @@ description: Empresas, marcas, projetos, comunidade e presença profissional.
       </article>
     </div>
 
-    <div class="projects-note-card">
-      <h3>Inspirado na estrutura do site oficial</h3>
+    <div class="projects-apple-note">
+      <h3>Estrutura central da presença profissional</h3>
       <p>
-        No site do Jorge Maia, “Projetos e Empresas” aparece como uma área própria do menu
-        e reúne iniciativas como JorgeCast, CrazyTechLabs e JorgeCast no YouTube, o que reforça
-        a ideia de apresentar essas frentes como parte central da presença profissional. :contentReference[oaicite:2]{index=2}
+        Esta área reúne as principais frentes do ecossistema do Jorge Maia,
+        organizando projetos, conteúdo e marca pessoal de forma mais clara,
+        profissional e estratégica.
       </p>
     </div>
   </div>

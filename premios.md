@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: page-clean
 permalink: /premios/
-eyebrow: Reconhecimentos
+
 ---
 
 <section class="awards-page">

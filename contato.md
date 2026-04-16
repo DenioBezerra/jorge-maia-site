@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: page-clean
 permalink: /contato/
-eyebrow: Fale com Jorge Maia
+
 ---
 
 <section class="contact-page">
