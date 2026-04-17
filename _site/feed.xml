@@ -1,28 +1,394 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/jorge-maia-site/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/jorge-maia-site/" rel="alternate" type="text/html" /><updated>2026-04-16T18:05:12-03:00</updated><id>http://localhost:4000/jorge-maia-site/feed.xml</id><title type="html">Jorge Maia</title><subtitle>Site profissional de Jorge Maia sobre tecnologia, inovação, IoT, comunidade e negócios digitais.</subtitle><entry><title type="html">JorgeCast S9E5 - Blockchain + IoT</title><link href="http://localhost:4000/jorge-maia-site/artigos/podcast/jorgecast-s9e5-blockchain-iot/" rel="alternate" type="text/html" title="JorgeCast S9E5 - Blockchain + IoT" /><published>2025-06-07T00:00:00-03:00</published><updated>2025-06-07T00:00:00-03:00</updated><id>http://localhost:4000/jorge-maia-site/artigos/podcast/jorgecast-s9e5-blockchain-iot</id><content type="html" xml:base="http://localhost:4000/jorge-maia-site/artigos/podcast/jorgecast-s9e5-blockchain-iot/"><![CDATA[<p>Aqui neste post você acompanha a pauta do JorgeCast S9E5.</p>
 =======
 <?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/jorge-maia-site/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/jorge-maia-site/" rel="alternate" type="text/html" /><updated>2026-04-14T17:34:22-03:00</updated><id>http://localhost:4000/jorge-maia-site/feed.xml</id><title type="html">Jorge Maia</title><subtitle>Site profissional de Jorge Maia sobre tecnologia, inovação, IoT, comunidade e negócios digitais.</subtitle><entry><title type="html">JorgeCast S9E5 - Blockchain + IoT</title><link href="http://localhost:4000/jorge-maia-site/artigos/podcast/jorgecast-s9e5-blockchain-iot/" rel="alternate" type="text/html" title="JorgeCast S9E5 - Blockchain + IoT" /><published>2025-06-07T00:00:00-03:00</published><updated>2025-06-07T00:00:00-03:00</updated><id>http://localhost:4000/jorge-maia-site/artigos/podcast/jorgecast-s9e5-blockchain-iot</id><content type="html" xml:base="http://localhost:4000/jorge-maia-site/artigos/podcast/jorgecast-s9e5-blockchain-iot/"><![CDATA[<p>Aqui neste post você acompanha a pauta do JorgeCast S9E5.</p>
 >>>>>>> 3028af4c5560c319203bbff6be2d04731bacb7e5
+=======
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/jorge-maia-site/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/jorge-maia-site/" rel="alternate" type="text/html" /><updated>2026-04-17T17:06:39-03:00</updated><id>http://localhost:4000/jorge-maia-site/feed.xml</id><title type="html">Jorge Maia</title><subtitle>Site profissional de Jorge Maia sobre tecnologia, inovação, IoT, comunidade e negócios digitais.</subtitle><entry><title type="html">JorgeCast S9E5 - Blockchain + IoT</title><link href="http://localhost:4000/jorge-maia-site/artigos/podcast/jorgecast-s9e5-blockchain-iot/" rel="alternate" type="text/html" title="JorgeCast S9E5 - Blockchain + IoT" /><published>2025-06-07T00:00:00-03:00</published><updated>2025-06-07T00:00:00-03:00</updated><id>http://localhost:4000/jorge-maia-site/artigos/podcast/jorgecast-s9e5-blockchain-iot</id><content type="html" xml:base="http://localhost:4000/jorge-maia-site/artigos/podcast/jorgecast-s9e5-blockchain-iot/"><![CDATA[<div class="post-apple-hero">
+  <div class="post-apple-copy">
+    <span class="post-apple-kicker">JorgeCast</span>
+    <h1>JorgeCast S9E5 - Blockchain + IoT</h1>
+    <p class="post-apple-lead">
+      Uma conversa sobre blockchain, Internet das Coisas e os impactos dessa combinação
+      em ecossistemas conectados, negócios digitais e novos modelos de confiança.
+    </p>
+  </div>
+>>>>>>> e7ca9c5 (Melhorando Posts)
 
-<p>Neste episódio, os temas centrais giram em torno de blockchain, Internet das Coisas e impactos em negócios digitais.</p>
+  <div class="post-apple-visual">
+    <div class="post-apple-image-card">
+      <img src="/jorge-maia-site/assets%5Ccss/img/jorgecastS9E5.png" alt="JorgeCast S9E5 - Blockchain + IoT" />
+    </div>
+  </div>
+</div>
 
-<h2 id="tópicos-do-episódio">Tópicos do episódio</h2>
+<div class="post-apple-content">
 
-<ul>
-  <li>Blockchain aplicada a ecossistemas conectados</li>
-  <li>IoT e confiança em redes distribuídas</li>
-  <li>Oportunidades para negócios digitais</li>
-  <li>Tendências e desafios do mercado</li>
-</ul>]]></content><author><name>Jorge Maia</name></author><category term="Podcast" /><summary type="html"><![CDATA[Aqui neste post você acompanha a pauta do JorgeCast S9E5.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/jorge-maia-site/assets%5Ccss/img/jorgecastS9E5.png" /><media:content medium="image" url="http://localhost:4000/jorge-maia-site/assets%5Ccss/img/jorgecastS9E5.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">JorgeCast S9E4 - Internet of Behaviors (IoB)</title><link href="http://localhost:4000/jorge-maia-site/artigos/podcast/jorgecast-s9e4-iob/" rel="alternate" type="text/html" title="JorgeCast S9E4 - Internet of Behaviors (IoB)" /><published>2025-05-31T00:00:00-03:00</published><updated>2025-05-31T00:00:00-03:00</updated><id>http://localhost:4000/jorge-maia-site/artigos/podcast/jorgecast-s9e4-iob</id><content type="html" xml:base="http://localhost:4000/jorge-maia-site/artigos/podcast/jorgecast-s9e4-iob/"><![CDATA[<p>Aqui neste post você acompanha a pauta do JorgeCast S9E4.</p>
+  <p>
+    Aqui neste post você acompanha a pauta do JorgeCast S9E5. No post original do site do Jorge,
+    o episódio parte de uma experiência prática com votação online e usa esse contexto para discutir
+    blockchain como tecnologia aplicada a confiança, transparência, auditoria e descentralização.
+  </p>
 
-<p>A conversa aborda Internet of Behaviors, comportamento orientado por dados e o impacto disso em produtos, negócios e tecnologia.</p>]]></content><author><name>Jorge Maia</name></author><category term="Podcast" /><summary type="html"><![CDATA[Aqui neste post você acompanha a pauta do JorgeCast S9E4.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/jorge-maia-site/assets%5Ccss/img/jorgecasts9e4.png" /><media:content medium="image" url="http://localhost:4000/jorge-maia-site/assets%5Ccss/img/jorgecasts9e4.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Cinto de Ferramentas - Como Configurar o terminal no Mac</title><link href="http://localhost:4000/jorge-maia-site/artigos-tecnicos/artigo%20t%C3%A9cnico/cinto-de-ferramentas-terminal-mac/" rel="alternate" type="text/html" title="Cinto de Ferramentas - Como Configurar o terminal no Mac" /><published>2022-11-08T00:00:00-03:00</published><updated>2022-11-08T00:00:00-03:00</updated><id>http://localhost:4000/jorge-maia-site/artigos-tecnicos/artigo%20t%C3%A9cnico/cinto-de-ferramentas-terminal-mac</id><content type="html" xml:base="http://localhost:4000/jorge-maia-site/artigos-tecnicos/artigo%20t%C3%A9cnico/cinto-de-ferramentas-terminal-mac/"><![CDATA[<p>Atualizado para o Mac OS Ventura 13.0.</p>
+  <div class="post-apple-highlight">
+    <strong>Resumo do episódio</strong>
+    <span>
+      O centro da conversa está em como blockchain pode ir além das criptomoedas e se conectar com
+      cenários de IoT, identidade, interoperabilidade, segurança e validação distribuída.
+    </span>
+  </div>
 
-<p>Neste artigo, a proposta é organizar um setup funcional para terminal no Mac, com foco em produtividade, clareza visual e rotina de desenvolvimento.</p>]]></content><author><name>Jorge Maia</name></author><category term="Artigo Técnico" /><summary type="html"><![CDATA[Atualizado para o Mac OS Ventura 13.0.]]></summary></entry><entry><title type="html">Cinto de Ferramentas - Como criar thumbnails no MAC com o ThumbsUp</title><link href="http://localhost:4000/jorge-maia-site/artigos-tecnicos/artigo%20t%C3%A9cnico/thumbsup-thumbnails-mac/" rel="alternate" type="text/html" title="Cinto de Ferramentas - Como criar thumbnails no MAC com o ThumbsUp" /><published>2022-03-28T00:00:00-03:00</published><updated>2022-03-28T00:00:00-03:00</updated><id>http://localhost:4000/jorge-maia-site/artigos-tecnicos/artigo%20t%C3%A9cnico/thumbsup-thumbnails-mac</id><content type="html" xml:base="http://localhost:4000/jorge-maia-site/artigos-tecnicos/artigo%20t%C3%A9cnico/thumbsup-thumbnails-mac/"><![CDATA[<p>Esta ferramenta é útil quando precisamos criar thumbnails de várias imagens de uma só vez.</p>
+  <h2>Blockchain para além das criptomoedas</h2>
 
-<h2 id="por-que-usar">Por que usar</h2>
+  <p>
+    No texto original, Jorge Maia destaca que blockchain ganhou o mainstream muito associada às
+    criptomoedas, mas reforça que a tecnologia pode ser aplicada em muitos outros contextos,
+    como cadeias logísticas, aplicações bancárias, smart-grids, cidades inteligentes e também IoT.
+  </p>
 
-<ul>
-  <li>Ganho de tempo</li>
-  <li>Padronização</li>
-  <li>Fluxo mais prático para produção de conteúdo</li>
-</ul>]]></content><author><name>Jorge Maia</name></author><category term="Artigo Técnico" /><summary type="html"><![CDATA[Ferramenta útil para criar thumbnails de várias imagens de uma só vez.]]></summary></entry></feed>
+  <p>
+    A ideia central é olhar para propriedades como descentralização, transparência, imutabilidade
+    e auditoria como capacidades que podem habilitar soluções em diferentes setores.
+  </p>
+
+  <h2>Onde blockchain encontra IoT</h2>
+
+  <p>
+    O post também faz a ponte com IoT, observando que dispositivos e dados normalmente passam por
+    identidades, brokers, ingestores e serviços centralizados. A questão proposta é:
+    em quais cenários vale trazer conceitos de blockchain para o universo da Internet das Coisas?
+  </p>
+
+  <div class="post-apple-points">
+    <div class="post-apple-point">
+      <strong>Confiança distribuída</strong>
+      <span>Em determinados cenários, a descentralização pode fortalecer validação, rastreabilidade e autenticidade.</span>
+    </div>
+
+    <div class="post-apple-point">
+      <strong>Transações verificáveis</strong>
+      <span>Casos com necessidade de registro imutável e transparência tendem a se beneficiar mais.</span>
+    </div>
+
+    <div class="post-apple-point">
+      <strong>IoT com novas garantias</strong>
+      <span>A combinação pode funcionar como habilitadora quando segurança e prova de execução são críticas.</span>
+    </div>
+  </div>
+
+  <h2>BoT e BIoT</h2>
+
+  <p>
+    No artigo original, Jorge menciona ainda as siglas <strong>BoT</strong> e <strong>BIoT</strong>,
+    usadas para representar essa convergência entre blockchain e Internet das Coisas.
+    A reflexão dele é que, em alguns cenários, essa combinação não será necessária;
+    em outros, ela pode ser justamente o elemento que faltava para viabilizar a solução.
+  </p>
+
+  <h2>Exemplos citados</h2>
+
+  <p>
+    Para não ficar apenas no plano teórico, o post original traz exemplos como SmartKey,
+    Chain of Security, Chain of Solar, Chain of Shipping, IOTA e Riddle&amp;Code, todos ligados,
+    de formas diferentes, à ideia de blockchain aplicada a interoperabilidade, logística,
+    conexão entre sistemas e segurança.
+  </p>
+
+  <div class="post-apple-highlight">
+    <strong>Ponto-chave</strong>
+    <span>
+      A visão do episódio não trata blockchain + IoT como moda, mas como combinação que precisa
+      ser avaliada com critério técnico, contexto e objetivo real de negócio.
+    </span>
+  </div>
+
+  <h2>Continuidade da conversa</h2>
+
+  <p>
+    Na publicação original, Jorge também aponta para o site do JorgeCast e para o episódio no SoundCloud,
+    reforçando que essa pauta é parte de uma conversa maior sobre tecnologia, cloud, IoT e transformação digital.
+  </p>
+
+  <p>
+    <a class="post-apple-link" href="https://www.jorgecast.com.br" target="_blank" rel="noopener noreferrer">
+      Visitar o site do JorgeCast
+    </a>
+  </p>
+
+  <div class="post-apple-author">
+    <div class="post-apple-author-image">
+      <img src="/jorge-maia-site/assets%5Ccss/img/jorgemaiabigode.webp" alt="Jorge Maia" />
+    </div>
+
+    <div class="post-apple-author-copy">
+      <span class="post-apple-author-label">Autor</span>
+      <h3>Jorge Maia</h3>
+      <p>
+        No site oficial, Jorge Maia é apresentado como Cientista da Computação, empreendedor,
+        especialista em Internet das Coisas, MVP Microsoft em Azure, advisor, consultor em
+        negócios digitais conectados, palestrante e âncora do JorgeCast.
+      </p>
+    </div>
+  </div>
+
+</div>]]></content><author><name>Jorge Maia</name></author><category term="Podcast" /><summary type="html"><![CDATA[Aqui neste post você acompanha a pauta do JorgeCast S9E5.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/jorge-maia-site/assets%5Ccss/img/jorgecastS9E5.png" /><media:content medium="image" url="http://localhost:4000/jorge-maia-site/assets%5Ccss/img/jorgecastS9E5.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">JorgeCast S9E4 - Internet of Behaviors (IoB)</title><link href="http://localhost:4000/jorge-maia-site/artigos/podcast/jorgecast-s9e4-iob/" rel="alternate" type="text/html" title="JorgeCast S9E4 - Internet of Behaviors (IoB)" /><published>2025-05-31T00:00:00-03:00</published><updated>2025-05-31T00:00:00-03:00</updated><id>http://localhost:4000/jorge-maia-site/artigos/podcast/jorgecast-s9e4-iob</id><content type="html" xml:base="http://localhost:4000/jorge-maia-site/artigos/podcast/jorgecast-s9e4-iob/"><![CDATA[<div class="post-apple-hero">
+  <div class="post-apple-copy">
+    <span class="post-apple-kicker">JorgeCast</span>
+    <h1>JorgeCast S9E4 - Internet of Behaviors (IoB)</h1>
+    <p class="post-apple-lead">
+      Reflexões sobre Internet of Behaviors, comportamento orientado por dados,
+      privacidade, consumo e os impactos disso em produtos, negócios e tecnologia.
+    </p>
+  </div>
+
+  <div class="post-apple-visual">
+    <div class="post-apple-image-card">
+      <img src="/jorge-maia-site/assets%5Ccss/img/jorgecasts9e4.png" alt="JorgeCast S9E4 - Internet of Behaviors (IoB)" />
+    </div>
+  </div>
+</div>
+
+<div class="post-apple-content">
+
+  <p>
+    Aqui neste post você acompanha a pauta do JorgeCast S9E4. No post original do site do Jorge,
+    esse episódio é apresentado como uma conversa sobre <strong>Internet of Behaviors (IoB)</strong>,
+    conectando tecnologia, rastros digitais, privacidade e o impacto disso no nosso cotidiano. :contentReference[oaicite:1]{index=1}
+  </p>
+
+  <div class="post-apple-highlight">
+    <strong>Resumo do episódio</strong>
+    <span>
+      O tema central é como a geração massiva de dados e os registros do nosso comportamento
+      digital estão sendo usados para influenciar decisões, consumo e experiências.
+    </span>
+  </div>
+
+  <h2>O que é Internet of Behaviors</h2>
+
+  <p>
+    No texto original, Jorge Maia apresenta a IoB como um desdobramento natural da era da geração
+    de dados em escala, em que dispositivos, aplicativos, pagamentos, redes sociais e serviços digitais
+    passam a registrar continuamente hábitos, escolhas, padrões e preferências. :contentReference[oaicite:2]{index=2}
+  </p>
+
+  <p>
+    A ideia central não é apenas coletar dados, mas entender e atuar sobre o comportamento humano
+    a partir desses registros. Isso aproxima tecnologia, marketing, consumo, experiência do usuário,
+    segurança, privacidade e tomada de decisão.
+  </p>
+
+  <h2>Por que esse tema importa</h2>
+
+  <div class="post-apple-points">
+    <div class="post-apple-point">
+      <strong>Dados em todo lugar</strong>
+      <span>Aplicativos, mapas, compras, carteiras digitais, marketplaces e dispositivos conectados deixam rastros o tempo todo.</span>
+    </div>
+
+    <div class="post-apple-point">
+      <strong>Comportamento como ativo</strong>
+      <span>O histórico de uso e interação passa a ser valioso para negócios, publicidade e personalização.</span>
+    </div>
+
+    <div class="post-apple-point">
+      <strong>Privacidade e ética</strong>
+      <span>O avanço tecnológico traz benefícios, mas também levanta discussões sobre exposição, vulnerabilidade e manipulação.</span>
+    </div>
+  </div>
+
+  <h2>A visão discutida no episódio</h2>
+
+  <p>
+    O post original reforça que não se trata apenas de “novas siglas”, mas de uma mudança real
+    na forma como tecnologia e comportamento se conectam. Jorge relaciona isso com o crescimento
+    do comércio digital, o aumento da personalização e a influência cada vez mais precisa dos sistemas
+    sobre escolhas e preferências. :contentReference[oaicite:3]{index=3}
+  </p>
+
+  <p>
+    Também há uma reflexão importante sobre como o que antes parecia apenas conveniência pode se tornar
+    base para decisões automatizadas, publicidade altamente direcionada, imposição de preferências e
+    construção de perfis comportamentais. :contentReference[oaicite:4]{index=4}
+  </p>
+
+  <div class="post-apple-highlight">
+    <strong>Ponto-chave</strong>
+    <span>
+      A IoB mostra que, hoje, os dados que deixamos no caminho digital já são suficientes para
+      descrever padrões, intenções e tendências do nosso comportamento.
+    </span>
+  </div>
+
+  <h2>Links citados e continuidade</h2>
+
+  <p>
+    Na publicação original, Jorge também referencia o site do JorgeCast, o episódio no SoundCloud,
+    o ebook do Gartner sobre tecnologias estratégicas de 2021 e um texto complementar da Vector
+    sobre o tema. :contentReference[oaicite:5]{index=5}
+  </p>
+
+  <p>
+    <a class="post-apple-link" href="https://www.jorgecast.com.br" target="_blank" rel="noopener noreferrer">
+      Visitar o site do JorgeCast
+    </a>
+  </p>
+
+  <div class="post-apple-author">
+    <div class="post-apple-author-image">
+      <img src="/jorge-maia-site/assets%5Ccss/img/jorgemaiabigode.webp" alt="Jorge Maia" />
+    </div>
+
+    <div class="post-apple-author-copy">
+      <span class="post-apple-author-label">Autor</span>
+      <h3>Jorge Maia</h3>
+      <p>
+        O perfil do autor no site oficial o apresenta como Cientista da Computação, empreendedor,
+        especialista em Internet das Coisas, MVP da Microsoft em Azure, advisor, consultor em
+        negócios digitais conectados, palestrante e âncora do JorgeCast. :contentReference[oaicite:6]{index=6}
+      </p>
+    </div>
+  </div>
+
+</div>]]></content><author><name>Jorge Maia</name></author><category term="Podcast" /><summary type="html"><![CDATA[Aqui neste post você acompanha a pauta do JorgeCast S9E4.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/jorge-maia-site/assets%5Ccss/img/jorgecasts9e4.png" /><media:content medium="image" url="http://localhost:4000/jorge-maia-site/assets%5Ccss/img/jorgecasts9e4.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Cinto de Ferramentas - Como criar thumbnails no MAC com o ThumbsUp</title><link href="http://localhost:4000/jorge-maia-site/artigos-tecnicos/artigo%20t%C3%A9cnico/cinto-de-ferramentas-terminal-mac/" rel="alternate" type="text/html" title="Cinto de Ferramentas - Como criar thumbnails no MAC com o ThumbsUp" /><published>2022-11-08T00:00:00-03:00</published><updated>2022-11-08T00:00:00-03:00</updated><id>http://localhost:4000/jorge-maia-site/artigos-tecnicos/artigo%20t%C3%A9cnico/cinto-de-ferramentas-terminal-mac</id><content type="html" xml:base="http://localhost:4000/jorge-maia-site/artigos-tecnicos/artigo%20t%C3%A9cnico/cinto-de-ferramentas-terminal-mac/"><![CDATA[<div class="post-hero">
+  <div class="post-hero-content">
+    <span class="post-badge">Artigo técnico</span>
+    <h1>Cinto de Ferramentas - Como criar thumbnails no MAC com o ThumbsUp</h1>
+    <p class="post-subtitle">
+      Ferramenta útil para criar thumbnails de várias imagens de uma só vez.
+    </p>
+  </div>
+
+  <div class="post-hero-image">
+    <img src="/jorge-maia-site/assets%5Ccss/img/jorgemaiabigode.webp" alt="Cinto de Ferramentas - Como criar thumbnails no MAC com o ThumbsUp" />
+  </div>
+</div>
+
+<div class="post-content-pro">
+
+<p>
+Esta ferramenta é extremamente útil quando precisamos criar thumbnails de várias imagens de forma rápida e padronizada.
+</p>
+
+<div class="post-highlight">
+  💡 Ideal para quem produz conteúdo e precisa otimizar tempo na criação de imagens.
+</div>
+
+<h2>Por que usar</h2>
+
+<div class="post-grid-points">
+
+<div class="post-point">
+<strong>⏱ Ganho de tempo</strong>
+<span>Automatiza a criação de thumbnails em lote</span>
+</div>
+
+<div class="post-point">
+<strong>🎯 Padronização</strong>
+<span>Mantém consistência visual entre imagens</span>
+</div>
+
+<div class="post-point">
+<strong>⚡ Produtividade</strong>
+<span>Fluxo mais rápido para produção de conteúdo</span>
+</div>
+
+</div>
+
+<h2>Quando utilizar</h2>
+
+<p>
+Se você trabalha com blogs, YouTube, sites ou qualquer tipo de conteúdo visual,
+essa ferramenta facilita muito o processo de geração de thumbnails em escala.
+</p>
+
+<div class="post-highlight">
+🚀 Ferramentas simples + processos eficientes = produção profissional
+</div>
+
+</div>]]></content><author><name></name></author><category term="Artigo Técnico" /><summary type="html"><![CDATA[Ferramenta útil para criar thumbnails de várias imagens de uma só vez.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/jorge-maia-site/assets%5Ccss/img/jorgemaiabigode.webp" /><media:content medium="image" url="http://localhost:4000/jorge-maia-site/assets%5Ccss/img/jorgemaiabigode.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Cinto de Ferramentas - Como criar thumbnails no MAC com o ThumbsUp</title><link href="http://localhost:4000/jorge-maia-site/artigos-tecnicos/cinto-de-ferramentas/artigo%20t%C3%A9cnico/thumbsup-thumbnails-mac/" rel="alternate" type="text/html" title="Cinto de Ferramentas - Como criar thumbnails no MAC com o ThumbsUp" /><published>2022-03-28T00:00:00-03:00</published><updated>2022-03-28T00:00:00-03:00</updated><id>http://localhost:4000/jorge-maia-site/artigos-tecnicos/cinto-de-ferramentas/artigo%20t%C3%A9cnico/thumbsup-thumbnails-mac</id><content type="html" xml:base="http://localhost:4000/jorge-maia-site/artigos-tecnicos/cinto-de-ferramentas/artigo%20t%C3%A9cnico/thumbsup-thumbnails-mac/"><![CDATA[<div class="post-apple-hero">
+  <div class="post-apple-copy">
+    <span class="post-apple-kicker">Cinto de Ferramentas</span>
+    <h1>Cinto de Ferramentas - Como criar thumbnails no MAC com o ThumbsUp</h1>
+    <p class="post-apple-lead">
+      Uma ferramenta simples e prática para criar thumbnails em lote no macOS,
+      ajudando a ganhar tempo e manter consistência visual.
+    </p>
+  </div>
+
+  <div class="post-apple-visual">
+    <div class="post-apple-image-card">
+      <img src="/jorge-maia-site/assets%5Ccss/img/jorgemaiabigode.webp" alt="Cinto de Ferramentas - Como criar thumbnails no MAC com o ThumbsUp" />
+    </div>
+  </div>
+</div>
+
+<div class="post-apple-content">
+
+  <p>
+    O ThumbsUp é uma ferramenta útil para quem precisa gerar thumbnails de várias imagens
+    de uma só vez no macOS. A proposta é simples: automatizar uma tarefa repetitiva e
+    deixar o fluxo de produção de conteúdo mais rápido e organizado.
+  </p>
+
+  <div class="post-apple-highlight">
+    <strong>Resumo rápido</strong>
+    <span>Ideal para quem trabalha com imagens, blog, YouTube, documentação ou organização de arquivos.</span>
+  </div>
+
+  <h2>Por que usar</h2>
+
+  <div class="post-apple-points">
+    <div class="post-apple-point">
+      <strong>Ganho de tempo</strong>
+      <span>Gera thumbnails em lote sem precisar editar imagem por imagem.</span>
+    </div>
+
+    <div class="post-apple-point">
+      <strong>Padronização</strong>
+      <span>Ajuda a manter o mesmo tamanho e padrão visual entre miniaturas.</span>
+    </div>
+
+    <div class="post-apple-point">
+      <strong>Fluxo mais prático</strong>
+      <span>Facilita processos de organização e publicação de conteúdo.</span>
+    </div>
+  </div>
+
+  <h2>Quando faz sentido usar</h2>
+
+  <p>
+    Essa ferramenta é especialmente útil quando você precisa publicar várias imagens em
+    um site, organizar galeria, preparar material visual ou manter um fluxo recorrente
+    de produção de thumbnails no Mac.
+  </p>
+
+  <h2>Link do desenvolvedor</h2>
+
+  <p>
+    A página original do post do Jorge também aponta diretamente para o site do desenvolvedor da ferramenta. :contentReference[oaicite:1]{index=1}
+  </p>
+
+  <p>
+    <a class="post-apple-link" href="https://www.devontechnologies.com/apps/freeware" target="_blank" rel="noopener noreferrer">
+      Acessar página do desenvolvedor
+    </a>
+  </p>
+
+  <div class="post-apple-author">
+    <div class="post-apple-author-image">
+      <img src="/jorge-maia-site/assets%5Ccss/img/jorgemaiabigode.webp" alt="Jorge Maia" />
+    </div>
+
+    <div class="post-apple-author-copy">
+      <span class="post-apple-author-label">Autor</span>
+      <h3>Jorge Maia</h3>
+      <p>
+        Profissional de tecnologia com atuação em software, Internet das Coisas, comunidade,
+        conteúdo técnico, negócios digitais e iniciativas ligadas ao ecossistema tech.
+      </p>
+    </div>
+  </div>
+
+</div>]]></content><author><name></name></author><category term="Artigo Técnico" /><summary type="html"><![CDATA[Ferramenta útil para criar thumbnails de várias imagens de uma só vez.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/jorge-maia-site/assets%5Ccss/img/jorgemaiabigode.webp" /><media:content medium="image" url="http://localhost:4000/jorge-maia-site/assets%5Ccss/img/jorgemaiabigode.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
